@@ -3,7 +3,7 @@
 #include "display.h"
 
 //SPISettings settings(32000000, BitOrder::MSBFIRST, SPI_MODE0);
-SPISettings settings(32000000, SPI_MSBFIRST, SPI_MODE0);
+SPISettings settings(80000000, SPI_MSBFIRST, SPI_MODE0);
 
 void InitTftHardware (void)
 {
